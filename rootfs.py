@@ -227,6 +227,7 @@ print(shutil.which('chroot'))
                                   '--dev-bind', '/dev/urandom', '/dev/urandom',
                                   '--dev-bind', '/dev/ptmx', '/dev/ptmx',
                                   '--dev-bind', '/dev/tty', '/dev/tty',
+                                  '--ro-bind', '/usr/bin/qemu-riscv64', '/usr/bin/qemu-riscv64',
                                   '--tmpfs', '/dev/shm',
                                   '--proc', '/proc',
                                   '--bind', '/sys', '/sys',
