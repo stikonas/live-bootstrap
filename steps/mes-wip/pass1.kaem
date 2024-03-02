@@ -51,6 +51,7 @@ cp ../files/config.h ${MES_PREFIX}/include/mes
 cd ${MES_PREFIX}
 mkdir include/arch
 cp include/linux/${MES_ARCH}/syscall.h include/arch/syscall.h
+cp include/linux/${MES_ARCH}/signal.h include/arch/signal.h
 cp include/linux/${MES_ARCH}/kernel-stat.h include/arch/kernel-stat.h
 
 # Remove pregenerated files
