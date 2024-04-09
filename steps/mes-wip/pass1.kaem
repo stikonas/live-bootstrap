@@ -329,7 +329,7 @@ cp include/memory.h ${INCDIR}/memory.h
 cp include/pwd.h ${INCDIR}/pwd.h
 cp include/setjmp.h ${INCDIR}/setjmp.h
 cp include/signal.h ${INCDIR}/signal.h
-cp include/linux/${MES_ARCH}/signal.h ${INCDIR}/linux/${MES_ARCH}/signal.h
+cp include/linux/${MES_ARCH}/signal.h ${INCDIR}/arch/signal.h
 cp include/stdarg.h ${INCDIR}/stdarg.h
 cp include/stdbool.h ${INCDIR}/stdbool.h
 cp include/stddef.h ${INCDIR}/stddef.h
