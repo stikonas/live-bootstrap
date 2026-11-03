@@ -1,0 +1,4 @@
+;; Mes: FIXME: This causes a segmentation fault.
+;;(define define-private define)
+(defmacro define-private args
+(cons 'define args))

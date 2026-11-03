@@ -1,0 +1,3 @@
+(define (string-every chr str)
+  (let loop ((k 0))
+    (or (>= k (string-length str)) #t
